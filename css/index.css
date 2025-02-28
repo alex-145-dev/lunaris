@@ -188,13 +188,13 @@ hr{border:none; border-bottom: 1px solid #ddd}
 }
 
 #h2_slide{
-  margin-left: 5px;
+  margin-left: 10px;
   padding-bottom: 10px;
 }
 
 #p_slide_0{
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #a_345{
@@ -342,7 +342,7 @@ hr{border:none; border-bottom: 1px solid #ddd}
     }
 
   .colonna-3 {
-    margin-left: 0;/* Aggiungi un po' di spazio tra le colonne */
+    margin-left: 0;
     width: 10%;
     border: 1px solid#f1c40f;
     }
@@ -474,7 +474,7 @@ hr{border:none; border-bottom: 1px solid #ddd}
   }
 
   .sub-container {
-    width: 22%;
+    width: 21%;
     height: 45px;
     top: -46px;
    
@@ -798,7 +798,7 @@ height: auto;
   /*color: #FFD700;*/
   color: #D4AF37;
   font-family: 'Playfair Display', serif;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 35px;
   
 }
@@ -807,7 +807,8 @@ height: auto;
   color: white;
   text-align: center;
   font-size: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  margin: 0 300px;
 }
 
 /*Smartphone*/
@@ -818,9 +819,15 @@ height: auto;
   }
 
   .container {
-    width: 115px;
+    width: 105px;
     height: 70px;
     
+  }
+
+  #p_contatti_121{
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin: 0 5px;
   }
 
   .overlapping-containers {
@@ -862,7 +869,7 @@ height: auto;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
   }
   
   .footer-left,
