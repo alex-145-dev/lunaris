@@ -107,3 +107,27 @@ function hideOverlay() {
   const overlay = document.getElementById('overlay');
   overlay.classList.add('hidden');
 }
+
+
+/*codice menu (//1)*/
+let activeMenu = null;
+
+function toggleMenu_1(id, element) {
+    let menu = document.getElementById(id);
+    let isOpen = menu.style.display === "block";
+    
+    if (activeMenu && activeMenu !== menu) {
+        activeMenu.style.display = "none";
+        activeMenu.previousElementSibling.classList.remove("active");
+    }
+    
+    if (isOpen) {
+        menu.style.display = "none";
+        element.classList.remove("active");
+        activeMenu = null;
+    } else {
+        menu.style.display = "block";
+        element.classList.add("active");
+        activeMenu = menu;
+    }
+}
